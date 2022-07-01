@@ -1,0 +1,50 @@
+{
+"platforms": [
+{
+  "x": platformX,
+  "y": platformY
+}
+],
+"enemies": [
+{
+  "x": monsterX,
+  "y": monsterY,
+  "type": "monster",
+  "start": monsterX,
+  "left": monsterLeft
+},
+{
+  "x": chaserX,
+  "y": chaserY,
+  "type": "chaser"
+},
+{
+  "x": rangedEnemyX,
+  "y": rangedEnemyY,
+  "type": "ranged"
+},
+{
+  "x": spikeX,
+  "y": spikeY,
+  "type": "spike"
+}
+],
+"coins": [
+{
+  "x": coinX,
+  "y": coinY
+}
+],
+"healths": [
+{
+  "x": healthPackX,
+  "y": healthPackY
+}
+],
+"powerups": [
+{
+  "x": powerX,
+  "y": powerY
+}
+]
+}
